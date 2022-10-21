@@ -1,0 +1,180 @@
+.online {
+    padding: 60px 0 80px 0;
+    &-desc {
+        margin: 20px auto;
+        width: 50%;
+        font-size: 31px;
+        font-weight: 400;
+        line-height: 1.4em;
+        text-align: center;
+    }
+    &-catalog {
+        background-image: url('../img/box-catalog.webp');
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40%;
+        height: 380px;
+        position: relative;
+        &-desc {
+            width: 70%;
+            margin: 20px auto;
+            font-size: 1.5em;
+            font-weight: 500;
+            line-height: 1.2em;
+        }
+        &-group {
+            display: flex;
+            width: 70%;
+            margin: 20px auto;
+        }
+        &-top {
+            padding: 10px 20px 10px 20px;
+            background-color: #ffd800;
+            border-radius: 30px 30px 30px 30px;
+            font-size: 1em;
+            font-weight: 400;
+            margin-right: 10px;
+        }
+        &-actual {
+            color: #222222B0;
+            font-size: .9em;
+            font-weight: 400;
+            line-height: 1.3em;
+        }
+    }
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.title {
+    &_h2 {
+        font-size: 51px;
+        text-align: center;
+    }
+}
+
+.quiz {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #ffd800;
+    border-radius: 20px 20px 20px 20px;
+    width: 58%;
+    min-height: 480px;
+    &-content {
+        padding: 15px 30px 40px 30px;
+    }
+    &-progress {
+        width: 100%;
+        background-color: #eff3f4;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        &__count {
+            font-size: 1em;
+            font-weight: 500;
+            line-height: 1.2em;
+            padding-right: 15px;
+            width: 20%;
+            display: flex;
+            justify-content: flex-end;
+            background-color: #ffd800;
+            border-radius: 9px;
+            background-image: linear-gradient(135deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
+        }
+    }
+    &-question {
+        margin-bottom: 20px;
+        &__title {
+            margin-bottom: 10px;
+            font-size: 1.5em !important;
+            font-weight: 500;
+            margin-left: 5px;
+            line-height: 1.25em;
+        }
+        &-option {
+            border: 1px solid #c5c5c5;
+            padding: 0 0 0 10px;
+            border-radius: 10px;
+            width: 100%;
+            margin-bottom: 13px;
+            transition: 0.3s;
+            height: 55px;
+            display: flex;
+            align-items: center;
+            label {
+                padding-left: 10px;
+                font-size: 1.3em;
+                font-weight: 400;
+                margin: 0;
+            }
+        }
+    }
+    &-form {
+        &__btn {
+            border-radius: 15px 15px 15px 15px;
+            padding: 25px 25px 25px 25px;
+            border: none;
+            background-color: #ffd800;
+            color: #fff;
+            font-size: 21px;
+            font-weight: 700;
+            width: 100%;
+            &-active {
+                width: 82%;
+            }
+        }
+    }
+}
+
+[type="radio"],
+[type="checkbox"] {
+    -webkit-appearance: none;
+    float: left;
+    background: url('../icons/check.svg') left center no-repeat;
+    background-size: 35px;
+    overflow: hidden;
+    padding: 0;
+    position: table-cell;
+    vertical-align: middle;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+}
+
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+    background: url('../icons/check-active.svg') left center no-repeat;
+    background-size: 35px;
+}
+
+.select-question {
+    background-color: #fff !important;
+    border: 1px solid #c5c5c5 !important;
+}
+
+.btn-back {
+    position: relative;
+    color: #fff;
+    padding: 25px 25px 25px 25px;
+    width: 15%;
+    border-radius: 9px;
+    background-color: #E1E1E1;
+    font-size: 20px;
+    .fa {
+        right: 35px;
+        transform: rotate(-180deg);
+    }
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-hidden,
+.btn-back,
+[type="submit"] {
+    display: none;
+}

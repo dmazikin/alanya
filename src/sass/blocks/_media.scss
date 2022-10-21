@@ -1,0 +1,243 @@
+@media (max-width: 900px) {
+    .title {
+        font-size: 1.38em;
+    }
+    .promo {
+        &-desc {
+            font-size: .9em;
+        }
+        &_btn {
+            width: 100%;
+            height: 33px;
+        }
+        &-icons {
+            flex-direction: column;
+        }
+        &-icon {
+            &__desc {
+                font-size: 1em;
+            }
+        }
+    }
+    .fa {
+        top: 25px;
+    }
+    .order-head-left__title {
+        font-size: 1.5em;
+    }
+    .order-head-left__desc {
+        font-size: 0.9rem;
+    }
+    .order-map__title {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .order-map-1,
+    .order-map-2 {
+        width: 49%;
+    }
+    .order-exclusive {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 775px) {
+    .promo {
+        &-wrapper {
+            flex-direction: column;
+        }
+        &-present {
+            margin: 0 auto;
+        }
+    }
+    .sliders {
+        width: 100%;
+        height: 280px;
+    }
+    .online {
+        &-wrapper {
+            flex-direction: column;
+        }
+        &-catalog {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+    .quiz {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .order-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .order-exclusive {
+        font-size: 14px;
+        padding: 5px;
+        bottom: -30px;
+        width: 80%;
+        right: 10%;
+    }
+    .order-head {
+        flex-direction: column;
+    }
+    .order-head-left {
+        margin-bottom: 20px;
+    }
+    .help-item {
+        width: 100%;
+        display: block;
+    }
+    .help-item-group {
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .help-item img {
+        display: block;
+        margin: 0 auto;
+    }
+    .order-video__title,
+    .order-view__title {
+        font-size: 17px;
+    }
+    .order-video__desc,
+    .order-view__desc {
+        font-size: 14px;
+    }
+    .order-video,
+    .order-view {
+        width: 100%;
+    }
+    .order-item {
+        width: 90%;
+        margin: 80px auto;
+    }
+    .order-head-left {
+        width: 100%;
+    }
+    .order-map-1,
+    .order-map-2 {
+        width: 100%;
+    }
+    .order-head__btn {
+        width: 100%;
+    }
+    .order-notice__desc {
+        font-size: 12px;
+    }
+    .order-notice {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .order-bonus {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 595px) {
+    .header {
+        &-text {
+            display: none;
+        }
+        &-logo__link {
+            width: 100px;
+        }
+    }
+    .promo {
+        &-present {
+            width: 100%;
+        }
+    }
+    .quiz {
+        width: 90%;
+        &-content {
+            padding: 15px 10px 40px 10px;
+        }
+    }
+    .quiz-question-option label {
+        font-size: 0.8em;
+    }
+    .order-head-left__title {
+        font-size: 16px;
+    }
+    .online-desc {
+        width: 90%;
+        font-size: 21px;
+    }
+    .footer {
+        &-text {
+            display: none;
+        }
+        &-logo__link {
+            width: 100px;
+        }
+    }
+    .modal {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        &-wrapper {
+            flex-direction: column;
+        }
+        &-logo {
+            margin-bottom: 20px;
+        }
+    }
+    .quiz-form__btn {
+        padding: 10px 25px 10px 25px;
+    }
+    .quiz-progress__count {
+        padding-right: 5px;
+        font-size: 14px;
+    }
+    .order .title {
+        width: 90%;
+    }
+    .order-exclusive {
+        font-size: 10px;
+    }
+    .order-head__btn {
+        min-height: 50px;
+        font-size: 14px;
+    }
+    .order-head__btn .fa {
+        top: 19px;
+    }
+    .online-catalog-group {
+        flex-direction: column;
+    }
+    .online-catalog-top {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .help-item__title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .help-item__desc {
+        font-size: 14px;
+    }
+    .order-item {
+        padding: 10px;
+    }
+    .congratulate-exclusive {
+        bottom: 140px;
+    }
+    .footer {
+        &-wrapper {
+            flex-direction: column;
+        }
+        &-logo {
+            margin-bottom: 20px;
+        }
+    }
+    .modal__subtitle {
+        font-size: 18px;
+    }
+}
